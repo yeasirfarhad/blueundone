@@ -1,0 +1,364 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+/*header start*/
+
+header{
+background-color: #121B2A;
+padding: 10px 0;
+}
+
+
+.wrapper {
+	overflow:hidden;
+width:80%;
+/*border:1px solid red;*/
+margin:0 auto;
+}
+
+
+
+.logo {
+	float:left;
+	width:18%;
+	/*border:1px solid white;*/
+
+}
+
+
+
+.logo img{
+	width:100%;
+}
+
+
+
+.menu {
+	float:right;
+	width:70%;
+	/*border:1px solid white;*/
+	margin-top: 38px;
+
+}
+
+.menu ul{
+	float:right;
+}
+
+.menu ul li{
+	list-style: none;
+	float:left;
+}
+
+.menu ul li a{
+	font-family: sans-serif;
+	font-size: 16px
+	font-weight: 400;
+	color:white;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0 20px;
+	display: inline-block;
+	transition: .3s;
+}
+
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+.menu ul li a:hover{
+	color: #066FB0
+}
+
+/*header end*/
+
+/*banner start*/
+.banner{
+	background-image: url(../images/person.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 500px
+}
+.b_content{
+	margin-top: 200px;
+	margin-bottom: 70px;
+	width:50%;
+	border: /*1px solid red;*/
+
+}
+.b_content h1{
+	margin:0;
+	font-family: sans-serif;
+	font-size:38px;
+	font-weight:400;
+	color:#fff;
+}
+.b_content h2{
+	margin:0;
+	font-family: sans-serif;
+	font-size:38px;
+	font-weight:800;
+	color:#0075BA;
+}
+.b_content p{
+	margin:0 0 20px;
+	font-family: sans-serif;
+	font-size:18px;
+	font-weight:400;
+	color:#fff;
+	line-height: 25px;
+}
+.b_content button{
+	width:200px;
+	height: 50px;
+	font-family: sans-serif;
+	font-size:20px;
+	font-weight:400;
+	color:#5B5B5B;
+	text-transform: uppercase;
+	background-color:white;
+	border:none;
+	cursor: pointer;
+	transition: .4s;
+}
+
+.b_content button:focus{
+	outline: none;
+
+}
+
+.b_content button:hover{
+	background-color: #0277BC;
+	color: #fff;
+}
+
+
+/*banner end*/
+
+/*service start*/
+.service{
+	background-color: #121B2C;
+	padding:50px 0 20px;
+}
+.single{
+	width:28%;
+	border-right:1px solid #1A2430;
+	padding: 50px 2.6%;
+	float: left; 	
+}
+.single:last-child{
+	border-right:0;
+}
+
+.top{
+	overflow: hidden;
+}
+.t_img{
+	width:25%;
+	/*border: 1px solid white;*/
+	float:left;
+}
+.t_img img{
+	width:100%;
+}
+.t_txt{
+	margin-top: 16PX; 
+	width:70%;
+	/*border: 1px solid white;*/
+	float:left;
+}
+.t_txt h2{
+	margin:0; 
+	font-family: sans-serif;
+	font-size:20px;
+	font-weight:400;
+	color:#fff;
+}
+.t_txt h3{
+	margin: 0;
+	font-family: sans-serif;
+	font-size:20px;
+	font-weight:800;
+	color:#0075BA;
+}
+.bottom{}
+.bottom p{
+	margin: 15px 0 0;
+	font-family: sans-serif;
+	font-size:16px;
+	font-weight:400;
+	color:#fff;
+	line-height: 25px;
+}
+
+
+/*service end*/
+
+/*contact start*/
+.contact{
+	background-color: #040811;
+}
+
+.container{
+	width:75%;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+.contact2{
+	width:31%;
+	margin:50px 0;
+	padding: 10px 10px;
+	float:left;
+	overflow:hidden;
+}
+
+h2{
+	color: #fff;
+}
+
+h5{
+	color: #fff;
+	font-weight: 400;
+}
+
+.ocean{
+	color:#066FB0;
+}
+
+p{
+	color: white;
+	font-family: sans-serif;
+	font-size:12px;
+	font-weight: 200px;
+	text-transform: capitalize;
+	line-height: 20px;
+	margin: 0px;
+	margin-top: 20px;
+}	
+
+h4{
+	color: #fff;
+}
+
+
+.third{
+	float: left;
+	width: 100%;
+
+}
+
+.thirdtext{
+	float: left;
+
+
+}
+
+.thirdtext img{
+	width:80%;
+	
+}
+
+/*contact end*/
+
+/*footer start*/
+
+
+
+footer{
+
+background-color: #121B2C;
+}
+.wrapper2{
+	width: 90%;
+	margin: 0px auto;
+	/*border: 1px solid white;*/
+	overflow: hidden;
+	padding: 10px 0px;
+}
+.f_menu{
+	width: 50%;
+	/*border: 1px solid white;*/
+	overflow: hidden;
+	float:left;
+	margin-top: 15px;
+	margin-bottom: 40px;
+
+
+
+}
+
+
+.f_menu ul{
+	line-height: 50px;
+
+}
+.f_menu ul li{
+	float:left;
+	color: white;
+	list-style: none;
+	padding: 0px 5px;
+	text-transform: capitalize;
+	font-size: 15px;
+	margin: 0px;
+	font-family: sans-serif;
+
+
+
+}
+
+.f_menu p{
+	color: white;
+	font-family: sans-serif;
+	text-transform: capitalize;
+	font-size: 10px;
+	/*margin-left: 50px;*/
+	margin-top: 40px;
+	margin-left: 45px;
+}
+
+.f_image{
+	width: 20%;
+	/*border: 1px solid white;*/
+	float: left;
+	margin-bottom: 40px;
+
+
+}
+
+.f_image img{
+	margin-left: 140px;
+	margin-top: 20px;
+	width: 70%;
+}
+
+.f_image2{
+	width: 20%;
+	/*border: 1px solid white;*/
+	float: left;
+	margin-bottom: 40px;
+
+}
+
+.f_image2 img{
+	margin-left: 156px;
+	margin-top: 10px;
+	width: 70%;
+
+
+}
+
+
+
+
+
+
+	
+
+  
+
+
+
